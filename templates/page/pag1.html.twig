@@ -1,0 +1,44 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}
+<title>10</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 128 128%22><text y=%221.2em%22 font-size=%2296%22>🌸</text></svg>">
+{% endblock %}
+
+{% block body %}
+<style>
+    h1{
+        background-color: #FFC0CB;
+        justify-content: center;
+        text-align: center;
+    }
+    p{
+        background-color: #FFC0CB;
+    }
+    body{
+        background-image: url("https://i.pinimg.com/564x/88/3c/44/883c446593bed25c7f7691966ad16c1e.jpg");
+        color: #E75480;;
+    }
+    a{
+        color: #B03060;
+        border: 2px solid #B03060;
+        -webkit-text-stroke-width: 1px;
+    }
+    .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
+    .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
+</style>
+
+<div class="example-wrapper">
+    <img src="https://i.pinimg.com/564x/e4/d0/9f/e4d09f3fc736921741b592f50ea18616.jpg"
+        alt="🐈" width="200" height="210" align="right"/>
+    <h1>Estás en la {{pag}} 🌸</h1>
+
+    <p>🈹 Sus PARAMETROS:</p>
+    <ul>
+        <li>Controller: ⚙️ <code><a href="{{ 'C:/xampp/htdocs/WEB/ERROR/src/Controller/PageController.php'|file_link(0) }}">src/Controller/PageController.php</a></code></li>
+        <li>Template: ⛓️ <code><a href="{{ 'C:/xampp/htdocs/WEB/ERROR/templates/page/index.html.twig'|file_link(0) }}">templates/page/index.html.twig</a></code></li>
+    </ul>
+
+    <a href="/host" class="boton">[Regresar]</a>
+</div>
+{% endblock %}
