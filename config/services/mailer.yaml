@@ -1,0 +1,6 @@
+# config/services/mailer.yaml
+parameters:
+    # ... some parameters
+
+services:
+    # ... some services
