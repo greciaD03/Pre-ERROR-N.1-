@@ -9,22 +9,22 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Component\HttpKernel\Exception;
+namespace Symfony\Component\HttpKernel\ExceptionInterface;
 
 /**
  * Interface for HTTP error exceptions.
  *
  * @author Kris Wallsmith <kris@symfony.com>
  */
-//interface HttpExceptionInterface extends \Throwable
+interface HttpExceptionInterface extends \Throwable
 {
     /**
      * Returns the status code.
      */
-    //public function getStatusCode(): int;
+    public function getStatusCode(): int;
 
     /**
      * Returns response headers.
      */
-    //public function getHeaders(): array;
+    public function getHeaders(): array;
 }

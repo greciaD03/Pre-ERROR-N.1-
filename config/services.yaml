@@ -32,3 +32,11 @@ services:
 
     # add more service definitions when explicit configuration is needed
     # please note that last definitions always *replace* previous ones
+    App\EventListener\ExceptionListener:
+        tags: [kernel.event_listener]
+
+    App\EventListener\RequestListener:
+        tags: [kernel.event_request]
+
+    App\EventSubscriber\ExceptionSubscriber:
+        tags: [doctrine.event_subscriber]
