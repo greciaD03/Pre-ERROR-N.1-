@@ -17,6 +17,8 @@ class ErrorController extends AbstractController
     }
 }
 
+//https://symfony.com/doc/current/controller/error_pages.html
+
 //https://stackoverflow.com/questions/64241732/implement-a-custom-error-controller-in-symfony-4-4
 //https://github.com/partkeepr/PartKeepr/issues/1008 
 //https://symfony.com/doc/current/service_container/import.html

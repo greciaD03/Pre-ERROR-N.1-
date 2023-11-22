@@ -8,10 +8,10 @@ parameters:
 
 imports:
  - { resource: parameters.yaml }
- - { resource: services/mailer.yaml }
+ #- { resource: services/mailer.yaml }
     # If you want to import a whole directory:
- - { resource: services/ }
- - { resource: '%kernel.project_dir%/somefile.yaml' }
+ #- { resource: services/ }
+ #- { resource: '%kernel.project_dir%/somefile.yaml' }
 
 services:
     # default configuration for services in *this* file
