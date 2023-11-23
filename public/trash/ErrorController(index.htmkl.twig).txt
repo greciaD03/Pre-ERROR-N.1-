@@ -22,3 +22,5 @@ class ErrorController extends AbstractController
 //https://www.youtube.com/watch?v=OHT_nNTW7P0
 //https://www.youtube.com/watch?v=MGSmZ4_MXJI
 //https://www.youtube.com/watch?v=k9HfYQMlX20
+//https://docs.w3cub.com/symfony~4.1/symfony/component/httpkernel/exception/httpexceptioninterface
+// https://panjeh.medium.com/laravel-app-env-local-app-env-production-difference-aa9662ac81d0

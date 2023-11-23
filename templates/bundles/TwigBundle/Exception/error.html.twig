@@ -6,10 +6,16 @@
 {% endblock %}
 
 {% block body %}
-    <h1>🚨 Page not found 🚨</h1>
 
-    <p>
-        No se pudo ubicar la página solicitada. Pagar por cualquier URL
-        falta de ortografía o <a href="{{ path('app_host') }}">Regresar a la página de inicio</a>.
-    </p>
+<style>
+c{
+color: #ff0000;
+-webkit-text-stroke-width: 3px; 
+}
+</style>
+
+    <h1>🚨 Page not found <c>GENERAL</c> 🚨</h1>
+
+    <p>No se pudo ubicar la página solicitada. Mala conexión al URL
+        o falta de logica: <a href="{{ path('app_host') }}">Regrese a la página de inicio</p>
 {% endblock %}
