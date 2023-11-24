@@ -6,7 +6,6 @@
 {% endblock %}
 
 {% block body %}
-
 <style>
 c{
 color: #ff0000;
@@ -17,5 +16,5 @@ color: #ff0000;
     <h1>🚨 Page not found <c>GENERAL</c> 🚨</h1>
 
     <p>No se pudo ubicar la página solicitada. Mala conexión al URL
-        o falta de logica: <a href="{{ path('app_host') }}">Regrese a la página de inicio</p>
+        o falta de logica: <a href="{{path('app_host')}}">Regrese a la página de inicio</p>
 {% endblock %}
